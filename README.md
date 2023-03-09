@@ -1,5 +1,5 @@
 # gocloak-chi
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FNerzal%2Fgocloak-echo.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FNerzal%2Fgocloak-echo?ref=badge_shield)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fiotblue-kuido%2Fgocloak-chi.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fiotblue-kuido%2Fgocloak-chi?ref=badge_shield)
 
 Keycloak handler &amp; middleware for echo
 
@@ -15,7 +15,7 @@ Use this together with the keycloak client [gocloak](https://github.com/Nerzal/g
 * Install the package
 
 ```bash
-go get "github.com/Nerzal/gocloak/v9"
+go get "github.com/Nerzal/gocloak/v13"
 ```
 
 ```
@@ -42,12 +42,8 @@ type AuthenticationMiddleWare interface {
 This middleware uses echo and gocloak. Choose the right version for you
 
 | Versions         | Compatibility       |
-| ---------------- | ------------------- |
-| gockloak-echo/v3 | gocloak/v3, echo/v3 |
-| gockloak-echo/v4 | gocloak/v3, echo/v4 |
-| gockloak-echo/v7 | gocloak/v7, echo/v4 |
-| gockloak-echo/v8 | gocloak/v8, echo/v4 |
+|------------------|---------------------|
+| gockloak-chi/v13 | gocloak/v13, chi/v4 |
 
 ## License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FNerzal%2Fgocloak-echo.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FNerzal%2Fgocloak-echo?ref=badge_large)
-# gocloak-chi
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fiotblue-kuido%2Fgocloak-chi.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fiotblue-kuido%2Fgocloak-chi?ref=badge_large)
